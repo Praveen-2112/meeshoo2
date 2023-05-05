@@ -1,0 +1,340 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+@media (min-width:320px){
+.container{
+	width:98%;
+	margin:auto;
+}
+.row-1{
+	display:flex;
+}
+.col-1{
+width:10%;
+}
+.col-2{
+width:90%;
+}
+.col-3{
+	width:100%;
+}
+.col-2-btn{
+	padding:5px 10px;;
+}
+.col-2-btn-2{
+	padding:5px 10px;
+}
+.sold-head1{
+	
+}
+.all-img-0{
+	width:42%;
+}
+.sold-head{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.sold-btn{
+	width:30%;
+}
+}
+@media (min-width:620px){
+.container{
+	width:90%;
+	margin:auto;
+}
+	.col-2-btn{
+	padding:10px 60px;
+}
+.col-2-btn-2{
+	padding:10px 60px;
+}
+.sold-head1{
+width:30%;
+}
+.all-img-0{
+	width:22%;
+}
+.sold-head{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+}
+@media (min-width:960px){
+.container{
+width:80%;
+margin:auto;
+}
+.col-2-btn{
+	padding:10px 40px;
+}
+.col-2-btn-2{
+padding:10px 40px;	
+}
+.row{
+	display:flex;
+}
+.row-1{
+	width:50%;
+}
+.col-3{
+	width:50%;
+	margin-left:5px;
+}
+.sold-head1{
+width:40%;
+}
+.all-img-0{
+	width:28%;
+}
+.sold-head{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+}
+.col-1-img-1 img{
+	max-width:100%;
+	
+}
+.col-1-img-2 img{
+	max-width:100%;
+	height:auto;
+	border:2px solid #F7059F;
+	
+}
+.col-1-img-2{
+	
+}
+.col-2-img{
+	width:80%;
+	margin:auto;
+	border:1px solid#EBEBEB;
+	padding:0px 10px;;
+}
+.col-2-img img{
+	max-width:100%;
+	height:auto;
+	
+}
+.button{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	padding-top:20px;
+	align-items:center;
+	gap:5%;
+ 
+ }
+.col-2-btn{
+	border:2px solid grey;
+	border-radius:5px;
+	display:flex;
+	
+	
+
+}
+.col-2-btn>.btn-1>a{
+	text-decoration:none;
+	color:black;
+}
+.col-2-btn-2{
+	display:flex;
+	border:2px solid grey;
+	border-radius:5px;
+	background-color:#F7059F;
+}
+.btn-icon-2>i{
+	color:#F3EAF0;
+}
+.col-2-btn-2>.btn-2>a{
+	text-decoration:none;
+	color:#ffff;
+}
+.img-head{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.all-img{
+	display:flex;
+	gap:10px;
+}
+.all-img-1 img{
+	max-width:100%;
+}
+.all-img-0 img{
+	max-width:100%;
+	height:auto;
+}
+
+
+.all-img-0 img{
+	border:2px solid #F7059F;
+}
+.para-head1{
+	display:flex;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.para-icon1{
+	font-size:25px;
+}
+.para-num{
+	font-size:25px;
+}
+.para-icon2{
+	padding:4px 5px;
+}
+.star-icon{
+	display:flex;
+	border:1px solid #0DB94C;
+	background-color:#0DB94C;
+	border-radius:20px;
+	padding:5px;
+}
+.star-num{
+	font-size:20px;
+	color:#ffff;
+	
+}
+.star-icon1{
+	font-size:10px;
+	padding:5px 5px;
+	color:#ffff;
+}
+.para-star{
+	display:flex;
+	padding-bottom:10px;
+}
+.star-line{
+	padding:5px 5px;
+}
+.para-1{
+	border:1px solid #EBEBEB;
+	padding:10px;
+	margin-bottom:20px;
+}
+.size-head{
+	padding-top:0px;
+	padding-bottom:30px;
+}
+.size a{
+	text-decoration:none;
+	border:1px solid  black;
+	padding:8px 20px;
+	border-radius:15px;
+	
+}
+.size-xs a{
+color:#E2E2E2;
+border:1px solid #E2E2E2;
+border-radius:15px;
+padding:8px 20px;
+
+}
+.size-xs{
+	position:relative;
+	
+}
+a{
+	text-decoration:none;
+}
+.size-xs::after{
+	content:"";
+	width:100%;
+	height:2px;
+	color:#E2E2E2;
+	background-color:#E2E2E2;
+	position:absolute;
+	top:25%;
+	display:block;
+}
+
+.select-size{
+	display:flex;
+	flex-wrap:wrap;
+	gap:24px;
+}
+.para-2{
+	border:1px solid #EBEBEB;
+	padding:25px;
+	
+}
+.product{
+	padding:20px;
+	border:1px solid #EBEBEB;
+	margin-top:20px;
+}
+.product h2{
+	padding-bottom:20px;
+	padding-top:10px;
+}
+.product>ul>li{
+	list-style-type:none;
+	padding-bottom:5px;
+	color:
+}
+.product-a a{
+	text-decoration:none;
+	border-bottom:1px dotted black;
+	color:black;
+}
+.sold h2{
+	padding-bottom:10px;
+}
+.sold-head1{
+	display:flex;
+	align-items:center;
+	
+}
+
+.sold-icon{
+	font-size:30px;
+	padding-right:20px;
+	color:#5468E7;
+	border:1px solid #C1F0ED;
+	background-color:#C1F0ED;
+	border-radius:50%;
+	padding:10px;
+}
+.views{
+	display:flex;
+	justify-content:space-evenly;
+}
+.sold-btn a{
+text-decoration:none;
+border:1px solid #F7059F;
+color:#F7059F;
+padding: 3px 7px;
+	
+}
+.views{
+	
+}
+.views-1{
+	padding-top:20px;
+}
+.views-0 p{
+	border:1px solid black ;
+	border-radius:15px;
+	padding-left:10px;
+	color:#5468E7;
+	
+	
+}
+.sold{
+border:1px solid  #EBEBEB;
+padding:20px;
+margin-top:20px;
+}
+.views-2{
+	padding-top:20px;
+}
+.view-2>p{
+	border:1 px solid black;
+}
